@@ -34,3 +34,15 @@ body{
     color: white;
     font-size: 50px;
 }
+@media (max-width: 768px) {
+    #horloge {
+        font-size: 4rem; /* Taille du texte réduite */
+    }
+    #hd {
+        flex-direction: column; /* Réorganise pour les petits écrans */
+    }
+    #pmam, #date {
+        font-size: 20px; /* Réduit les tailles */
+        margin-top: 10px;
+    }
+}
