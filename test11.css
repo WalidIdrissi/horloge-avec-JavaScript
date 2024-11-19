@@ -1,0 +1,36 @@
+body{
+    background-image: url("pexels-christian-heitz-285904-842711.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+#horloge-conteneur{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#horloge{
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+#hd{
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+    width: 100%;
+}
+#date{
+    margin-top: 81px;
+    color: wheat;
+}
+#pmam{
+    margin-top: 50px;
+    color: white;
+    font-size: 50px;
+}
