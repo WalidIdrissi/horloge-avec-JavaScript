@@ -36,7 +36,7 @@ body{
 }
 @media (max-width: 768px) {
     #horloge {
-        font-size: 4rem; /* Taille du texte réduite */
+        font-size: 3rem; /* Taille du texte réduite */
     }
     #hd {
         flex-direction: column; /* Réorganise pour les petits écrans */
@@ -44,5 +44,7 @@ body{
     #pmam, #date {
         font-size: 20px; /* Réduit les tailles */
         margin-top: 10px;
+        display: flex;
+        justify-content: center;
     }
 }
